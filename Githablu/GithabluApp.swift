@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct GithabluApp: App {
+    init(){
+        Dependency()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UserListView()
         }
     }
 }

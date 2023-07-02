@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B78255E2A4D33480003D908 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B78255D2A4D33480003D908 /* Network.swift */; };
+		0B7825602A4D36340003D908 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B78255F2A4D36340003D908 /* ImageLoader.swift */; };
 		0BCEEA472A4C6BA100D8DB0B /* GithabluApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCEEA462A4C6BA100D8DB0B /* GithabluApp.swift */; };
-		0BCEEA492A4C6BA100D8DB0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCEEA482A4C6BA100D8DB0B /* ContentView.swift */; };
+		0BCEEA492A4C6BA100D8DB0B /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCEEA482A4C6BA100D8DB0B /* UserListView.swift */; };
 		0BCEEA4B2A4C6BA400D8DB0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BCEEA4A2A4C6BA400D8DB0B /* Assets.xcassets */; };
 		0BCEEA4F2A4C6BA400D8DB0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BCEEA4E2A4C6BA400D8DB0B /* Preview Assets.xcassets */; };
+		0BCEEA572A4C6D4000D8DB0B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCEEA562A4C6D4000D8DB0B /* UserModel.swift */; };
+		0BCEEA5B2A4C6DFF00D8DB0B /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCEEA5A2A4C6DFF00D8DB0B /* UserListViewModel.swift */; };
+		0BEF05722A5010DE00C2483F /* DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEF05712A5010DE00C2483F /* DependencyInjector.swift */; };
+		0BEF05742A50124E00C2483F /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEF05732A50124E00C2483F /* Dependency.swift */; };
+		0BEF05762A50587400C2483F /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEF05752A50587400C2483F /* UserDetailsView.swift */; };
+		0BEF05792A505B6100C2483F /* UserDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEF05782A505B6100C2483F /* UserDetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B78255D2A4D33480003D908 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		0B78255F2A4D36340003D908 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		0BCEEA432A4C6BA100D8DB0B /* Githablu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Githablu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCEEA462A4C6BA100D8DB0B /* GithabluApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithabluApp.swift; sourceTree = "<group>"; };
-		0BCEEA482A4C6BA100D8DB0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0BCEEA482A4C6BA100D8DB0B /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		0BCEEA4A2A4C6BA400D8DB0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BCEEA4C2A4C6BA400D8DB0B /* Githablu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Githablu.entitlements; sourceTree = "<group>"; };
 		0BCEEA4E2A4C6BA400D8DB0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BCEEA562A4C6D4000D8DB0B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		0BCEEA5A2A4C6DFF00D8DB0B /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		0BEF05712A5010DE00C2483F /* DependencyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjector.swift; sourceTree = "<group>"; };
+		0BEF05732A50124E00C2483F /* Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
+		0BEF05752A50587400C2483F /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		0BEF05782A505B6100C2483F /* UserDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B2018742A4C944B00992CA0 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				0B78255F2A4D36340003D908 /* ImageLoader.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		0B78255C2A4D33220003D908 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				0B78255D2A4D33480003D908 /* Network.swift */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
 		0BCEEA3A2A4C6BA100D8DB0B = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +84,12 @@
 		0BCEEA452A4C6BA100D8DB0B /* Githablu */ = {
 			isa = PBXGroup;
 			children = (
+				0BEF05702A5010C900C2483F /* di */,
+				0B78255C2A4D33220003D908 /* networking */,
+				0B2018742A4C944B00992CA0 /* utils */,
+				0BCEEA582A4C6DB700D8DB0B /* view */,
+				0BCEEA552A4C6D2300D8DB0B /* model */,
 				0BCEEA462A4C6BA100D8DB0B /* GithabluApp.swift */,
-				0BCEEA482A4C6BA100D8DB0B /* ContentView.swift */,
 				0BCEEA4A2A4C6BA400D8DB0B /* Assets.xcassets */,
 				0BCEEA4C2A4C6BA400D8DB0B /* Githablu.entitlements */,
 				0BCEEA4D2A4C6BA400D8DB0B /* Preview Content */,
@@ -67,6 +103,50 @@
 				0BCEEA4E2A4C6BA400D8DB0B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0BCEEA552A4C6D2300D8DB0B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0BCEEA562A4C6D4000D8DB0B /* UserModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0BCEEA582A4C6DB700D8DB0B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0BEF05772A505B2E00C2483F /* user_details */,
+				0BCEEA592A4C6DC100D8DB0B /* user_list */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0BCEEA592A4C6DC100D8DB0B /* user_list */ = {
+			isa = PBXGroup;
+			children = (
+				0BCEEA482A4C6BA100D8DB0B /* UserListView.swift */,
+				0BCEEA5A2A4C6DFF00D8DB0B /* UserListViewModel.swift */,
+			);
+			path = user_list;
+			sourceTree = "<group>";
+		};
+		0BEF05702A5010C900C2483F /* di */ = {
+			isa = PBXGroup;
+			children = (
+				0BEF05712A5010DE00C2483F /* DependencyInjector.swift */,
+				0BEF05732A50124E00C2483F /* Dependency.swift */,
+			);
+			path = di;
+			sourceTree = "<group>";
+		};
+		0BEF05772A505B2E00C2483F /* user_details */ = {
+			isa = PBXGroup;
+			children = (
+				0BEF05752A50587400C2483F /* UserDetailsView.swift */,
+				0BEF05782A505B6100C2483F /* UserDetailsViewModel.swift */,
+			);
+			path = user_details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +219,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BCEEA492A4C6BA100D8DB0B /* ContentView.swift in Sources */,
+				0B7825602A4D36340003D908 /* ImageLoader.swift in Sources */,
+				0BEF05722A5010DE00C2483F /* DependencyInjector.swift in Sources */,
+				0BEF05742A50124E00C2483F /* Dependency.swift in Sources */,
+				0BCEEA492A4C6BA100D8DB0B /* UserListView.swift in Sources */,
+				0BEF05762A50587400C2483F /* UserDetailsView.swift in Sources */,
+				0BCEEA5B2A4C6DFF00D8DB0B /* UserListViewModel.swift in Sources */,
+				0BEF05792A505B6100C2483F /* UserDetailsViewModel.swift in Sources */,
+				0B78255E2A4D33480003D908 /* Network.swift in Sources */,
+				0BCEEA572A4C6D4000D8DB0B /* UserModel.swift in Sources */,
 				0BCEEA472A4C6BA100D8DB0B /* GithabluApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Githablu/Githablu.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Githablu/Preview Content\"";
@@ -300,6 +389,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Githablu/Githablu.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Githablu/Preview Content\"";
